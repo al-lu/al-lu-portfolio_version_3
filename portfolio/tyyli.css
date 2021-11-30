@@ -1,0 +1,282 @@
+@media screen and (max-width: 450px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+        background-color: #fffafa;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        top: 50px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #555;
+        position: absolute;
+    }
+
+    /* Hero Section Start */
+    #hero {
+        background-size: cover;
+        background-position: top center;
+        position: absolute;
+        top: 100px;
+    }
+
+    #hero::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-height: 100%;
+        width: 100%;
+    }
+    /*
+    .art {
+        position: relative;
+        top: -20px;
+        align-items: left;
+        justify-content: left;
+        color: #555;
+        line-height: 15px;
+        margin: 0;
+        padding: 0 50px;
+        font-weight: 200;
+        font-size: 14px;
+        letter-spacing: 12px;
+    }
+    */
+
+    .ps-content h1 {
+        top: -65px;
+        left: 100px;
+        padding: 10px 15px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.7em;
+        position: absolute;
+    }
+
+    .ps-header {
+        top: 0px;
+        min-height: 10px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(209, 165, 165);
+        /*color: #555;*/
+        line-height: 150px;
+        margin: 0;
+        padding: 0px;
+        font-weight: 200;
+        font-size: 10px;
+        letter-spacing: 4px;
+        top: -170px;
+        left: 90px;
+    }
+
+    .ps-contentwrapper {
+        top: 150px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        min-height: 100%;
+        padding: 50px;
+    }
+
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.3em;
+        top: -30px;
+        left: 135px;
+    }
+
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 290px;
+        left: 35px;
+
+    }
+
+    .ps-content p {
+        position: absolute;
+        top: 370px;
+        left: 20px;
+        right: 20px;
+        align-items: center;
+        justify-content: center;
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        padding: 10px 20px 20px 10px;
+        font-weight: 400;
+        /* text-align: justify; */
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .ps-slides {
+        position: relative;
+        display: block;
+
+    }
+
+    /* Hero Section End */
+
+    /* Projects Section Start */
+    /* #services {
+    } */
+    #services .services {
+        position: absolute;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:205%;
+
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+    /* Projects Section End */
+
+    /* About me Start */
+    .about-me {
+        position: absolute;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: -44%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    /* About me End */
+
+    /* Ending */
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+}
+

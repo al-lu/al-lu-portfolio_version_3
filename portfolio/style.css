@@ -1,0 +1,2269 @@
+/**************************
+***    GLOBAL STYLES    ***
+**************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffafa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*************************
+***    HERO SECTION    ***
+*************************/
+
+.container{
+    min-width: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #555;
+    background: #fffafa;
+}
+
+.container > div  {
+    position: absolute;
+    width: 50%;
+}
+
+.container > div > div ,
+.ps-slidewrapper > nav,
+.ps-slides > div {
+    position: absolute;
+}
+
+.ps-header {
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    z-index: 1001;
+    overflow-y: hidden;
+    background: #fffafa;
+}
+
+.ps-header h1 {
+    position: absolute;
+    color: rgb(220, 124, 124);
+    line-height: 150px;
+    margin: 0;
+    padding: 0 50px;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 10px;
+}
+
+.ps-contentwrapper {
+    top: 150px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.ps-content {
+    color: rgb(20, 19, 19);
+    width: 90%;
+    height: 100%;
+    padding: 50px;
+}
+
+.ps-content h1 {
+    padding: 10px 15px;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    letter-spacing: 10px;
+    margin: 10px 0 30px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+.ps-content h2 {
+    padding: 10px 15px;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    letter-spacing: 40px;
+    margin: 10px 0 30px;
+    text-align: right;
+    font-weight: 200;
+}
+
+.ps-content p {
+    line-height: 26px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    padding: 10px 15px;
+    font-weight: 400;
+    text-align: justify;
+    border-left: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+.ps-slidewrapper {
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ps-slides {
+    top: 60px;
+    bottom: 200px;
+    width: 50%;
+    float: right;
+}
+
+.ps-slides > div {
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+}
+
+.ps-slides > div {
+    background-color: #fffafa;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/********************************
+***    PROJECTS & SERVISES    ***
+********************************/
+
+#services .services {
+    position: relative;
+    flex-direction: none;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .section-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(209, 165, 165);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.service-top p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.service-item {
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.service-item h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.icon {
+    text-align: center;
+    width: 20%;
+    position: static;
+    margin-left: 40%;
+
+}
+
+/*********************
+***    ABOUT ME    ***
+*********************/
+
+.about-me {
+    position: relative;
+    flex-direction: none;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+    margin-top: -5%;
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+.section-me {
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(209, 165, 165);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/**********************
+***    THANK YOU    ***
+**********************/
+
+.thank-you {
+    border-top: 1px solid #f2f2f2;
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(209, 165, 165);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(209, 165, 165);
+    color: white;
+    text-align: center;
+    min-height: 10px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 50%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding: 0 50px;
+        font-weight: 200;
+        font-size: 12px;
+        letter-spacing: 10px;
+    }
+
+    .ps-contentwrapper {
+        top: 150px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        padding: 10px 15px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 300;
+        font-size: .9em;
+    }
+    
+    .ps-content h2 {
+        padding: 10px 15px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        letter-spacing: 40px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 200;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+    
+    .ps-slidewrapper {
+        right: 0px;
+        top: 0px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 50%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /**********************************
+    ***    PROJECTS AND SERVICES    ***
+    **********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    /*********************
+    ***    ABOUT ME    ***
+    *********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: -5%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    /**********************
+    ***    THANK YOU    ***
+    **********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;  
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+       
+@media screen and (max-width: 1100px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 50%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding: 0 50px;
+        font-weight: 200;
+        font-size: 12px;
+        letter-spacing: 10px;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        padding: 10px 15px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 300;
+        font-size: .9em;
+        top: px;
+    }
+    
+    .ps-content h2 {
+        padding: 10px 15px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        letter-spacing: 40px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 200;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+    
+    .ps-slidewrapper {
+        display: block;
+        right: 0px;
+        top: 0px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 50%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /**********************************
+    ***    PROJECTS AND SERVICES    ***
+    **********************************/
+    
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    /*********************
+    ***    ABOUT ME    ***
+    *********************/
+    
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: -5%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /**********************
+    ***    THANK YOU    ***
+    **********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+           
+@media screen and (max-width: 500px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 10px;
+        font-weight: 200;
+        font-size: 12px;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 135px;
+                }
+    
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 390px;
+        left: 56px;
+        
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 130%;
+    }
+
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 100%;
+        position: relative;
+        margin-top: 10%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    /********************************
+    ***   PROJECTS AND SERVICES   ***
+    ********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    /*********************
+    ***    ABOUT ME    ***
+    *********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 40%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /**********************
+    ***    THANK YOU    ***
+    **********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+
+                
+@media screen and (max-width: 360px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 27px;
+        padding-right: 5px;
+        font-weight: 200;
+        font-size: 10px;
+        letter-spacing: 7px;
+        text-align: center;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 135px;
+    }
+    
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 390px;
+        left: 56px;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 200%;
+    }
+    
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 100%;
+        position: relative;
+        margin-top: 25%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slidewrapper > nav {
+        width: 100%;
+        height: 200px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 1000;
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /********************************
+    ***    PROJECTS &  SERVICES   ***
+    ********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+    /*********************
+    ***    ABOUT ME    ***
+    *********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 80%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    /*********************
+    ***    THANK YOU   ***
+    *********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+
+                   
+@media screen and (max-width: 1000px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 117px;
+        padding-right: 5px;
+        font-weight: 200;
+        font-size: 14px;
+        letter-spacing: 15px;
+        text-align: center;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 577px;
+    }
+
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 490px;
+        left: 56px;
+    }
+
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 90%;
+        display: block;
+    }
+
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+    }
+
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 80%;
+        position: relative;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+
+    .ps-slides > div {
+        width: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    /*******************************
+    ***    PROJECTS & SERVICES   ***
+    *******************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    /********************
+    ***    ABOUT ME   ***
+    ********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 20%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /**********************
+    ***    THANK YOU    ***
+    **********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center; 
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+                        
+@media screen and (max-width: 425px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 22px;
+        padding-right: 5px;
+        font-weight: 200;
+        font-size: 13px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 117px;
+    }
+    
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 340px;
+        left: 56px;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 130%;
+        display: block;
+    }
+    
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 80%;
+        position: relative;
+        margin-top: 18%;
+        margin-right: 11%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /********************************
+    ***    PROJECTS & SERVICES    ***
+    ********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+    
+    /*********************
+    ***    ABOUT ME    ***
+    *********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 50%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /************************
+    ***     THANK YOU     ***
+    ************************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+                            
+@media screen and (max-width: 425px) {
+    /**************************
+    ***    GENERAL STYLES   ***
+    **************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        /*color: #555;*/
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 35px;
+        padding-right: 5px;
+        font-weight: 200;
+        font-size: 11px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 117px;
+    }
+    
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 340px;
+        left: 56px;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 165%;
+        display: block;
+    }
+    
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 80%;
+        position: relative;
+        margin-top: 23%;
+        margin-right: 11%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /*********************************
+    ***    PROJECTS AND SERVICES   ***
+    *********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+    
+    /********************
+    ***    ABOUT ME   ***
+    ********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 70%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /***********************
+    ***     THANK YOU    ***
+    ***********************/
+
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+                                
+@media screen and (max-width: 320px) {
+    /***************************
+    ***    GENERAL STYLES    ***
+    ***************************/
+
+    .container{
+        min-width: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+        text-transform: uppercase;
+        color: #555;
+        background: #fffafa;
+    }
+    
+    .container > div {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .container > div > div,
+    .ps-slidewrapper > nav,
+    .ps-slides > div {
+        position: absolute;
+    }
+    
+    .ps-header {
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        z-index: 1001;
+        overflow-y: hidden;
+        background: #fffafa;
+    }
+    
+    .ps-header h1 {
+        position: absolute;
+        color: rgb(220, 124, 124);
+        line-height: 150px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 22px;
+        padding-right: 5px;
+        font-weight: 200;
+        font-size: 7px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .ps-contentwrapper {
+        top: 80px;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    .ps-content {
+        color: rgb(20, 19, 19);
+        width: 90%;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .ps-content h1 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 4px;
+        margin: 10px 0 50px;
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-top: 11px;
+        left: 117px;
+    }
+    
+    .ps-content h2 {
+        position: absolute;
+        padding: 10px 15px;
+        border-right: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        letter-spacing: 10px;
+        margin: 10px 0 30px;
+        text-align: right;
+        font-weight: 400;
+        top: 340px;
+        left: 56px;
+    }
+    
+    .ps-content p {
+        line-height: 26px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 10px 15px;
+        font-weight: 400;
+        text-align: justify;
+        border-left: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        margin-top: 195%;
+        display: block;
+    }
+    
+    .ps-slidewrapper {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .ps-slides {
+        top: 60px;
+        bottom: 200px;
+        width: 80%;
+        position: relative;
+        margin-top: 39%;
+        margin-right: 11%;
+    }
+    
+    .ps-slides > div {
+        width: 100%;
+        box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+    }
+    
+    .ps-slides > div {
+        background-color: #fffafa;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+    
+    /**********************************
+    ***    PROJECTS AND SERVICES    ***
+    **********************************/
+
+    #services .services {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #services .section-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .service-top p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .service-item {
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .service-item p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .icon {
+        text-align: center;
+    }
+    
+    /********************
+    ***    ABOUT ME   ***
+    ********************/
+
+    .about-me {
+        position: relative;
+        flex-direction: none;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+        margin-top: 85%;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .section-me {
+        font-size: 3rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    /**********************
+    ***    THANK YOU    ***
+    **********************/
+    
+    .thank-you {
+        border-top: 1px solid #f2f2f2;
+        margin-top: 15px;
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(209, 165, 165);
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 165, 165);
+        color: white;
+        text-align: center;
+        min-height: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
